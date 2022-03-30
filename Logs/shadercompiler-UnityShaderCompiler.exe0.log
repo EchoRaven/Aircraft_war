@@ -2,3 +2,5 @@ Base path: 'D:/Herobrine/Tools/Unity/Unity 2020.3.31f1c1/Editor/Data', plugins p
 Cmd: initializeCompiler
 
 Cmd: shutdown
+
+Quitting shader compiler process
