@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CubeStatement : MonoBehaviour
 {
-    float blood = 100f;
+    public float blood = 100f;
     
     void OnTriggerEnter(Collider other){
         if(blood >= 0){

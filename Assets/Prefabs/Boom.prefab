@@ -639,9 +639,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 100
-  speed: 100
+  speed: 0
   camp: 1
   shootdistance: 1000
+  Target: {fileID: 3629038357980389476, guid: 236e10646e987294cbd1e1ded8d42c94, type: 3}
+  Target_Collider: {fileID: 3629038357980389481, guid: 236e10646e987294cbd1e1ded8d42c94, type: 3}
+  MaximumLifeTime: 5
+  lifeTime: 0
 --- !u!65 &4754144889762694625
 BoxCollider:
   m_ObjectHideFlags: 0
