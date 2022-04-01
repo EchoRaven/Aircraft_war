@@ -3,9 +3,10 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - BoomStatement
     - BulletStatement
+    - CableEnemy
     - CameraMovement
     - Cheat
-    - CubeStatement
+    - EnemyStatement
     - PlayerMovement
     - PlayerStatement
     - SpeedUp
@@ -57,7 +58,7 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1480}
+      Script: {instanceID: 1438}
     - Class: 114
       Script: {instanceID: 1752}
     - Class: 114
@@ -71,15 +72,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2404}
     - Class: 114
-      Script: {instanceID: 2578}
+      Script: {instanceID: 2466}
     - Class: 114
-      Script: {instanceID: 3586}
+      Script: {instanceID: 2580}
     - Class: 114
-      Script: {instanceID: 3852}
+      Script: {instanceID: 3588}
     - Class: 114
-      Script: {instanceID: 3870}
+      Script: {instanceID: 3854}
     - Class: 114
-      Script: {instanceID: 4070}
+      Script: {instanceID: 4072}
+    - Class: 114
+      Script: {instanceID: 4126}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -103,16 +106,16 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: 5ab533713adae59372fb3e10a585c186
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: AnimationPlayableAsset
-  - hash:
-      serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
       Hash: 77aaaaa51f7a8d8ff333a879741e47d2
@@ -181,7 +184,7 @@ ScriptsOnlyBuild:
     className: SpeedUp
   - hash:
       serializedVersion: 2
-      Hash: 8e370e1e57a962f80ffb3c02d2ab2f23
+      Hash: 78071e829449e0c9845a95da853a989f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BoomStatement
@@ -229,7 +232,7 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
-      Hash: d077bbca022b5db0ebde32a76941996c
+      Hash: 3bd6c9ad21741ce4feedcd488da00d57
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CameraMovement
@@ -263,6 +266,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 220bd265f54cc4cee8f1539ad2b2c64a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CableEnemy
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -517,7 +526,7 @@ ScriptsOnlyBuild:
     className: BulletStatement
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 2ad46d19b26f9647d8b56ab8f6a3358f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CubeStatement
@@ -547,6 +556,12 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: f82ebd16776b32e285c27d85ee6d8ab9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyStatement
+  - hash:
+      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -572,4 +587,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/13291/Desktop/Plane-3D.exe
+  playerPath: C:/Users/thb/Desktop/WinRar/Plane-3D.exe
